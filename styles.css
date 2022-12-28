@@ -1,142 +1,143 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  html {
-    font-family: "Roboto", sans-serif;
-    color: #FFFDE7;
-  }
-  body {
-    background-color: #252524;
-  }
-  .main-header {
-    background-color: #202020;
-    border-bottom: 2px solid #bb9517;
-    min-height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .main-header h1 {
-    margin-left: 20px;
-    font-size: 30px;
-  }
-  .main-nav {
-    margin-right: 20px;
-  }
-  a:link,
-  a:visited {
-    color: #FFFDE7;
-    text-decoration: none;
-    padding:15px;
-    font-size: 18px;
-  }
-  .main-nav a:hover {
-    background-color: #bb9517;
-    border-radius: 10%;
-  }
-  footer {
-    position: absolute;
-    bottom: 0;
-    height: 20px;
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
-  }
-  .content {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
-  fieldset {
-    border: none;
-  }
-
-  h2, label {
-    padding:10px;
-    font-size: 25px;
-  }
-  p {
-    padding-bottom:4px;
-    font-size: 18px;
-  }
-
-  #register-button {
-    width: 10rem;
-    height: 3rem;
-    padding:10px;
-    margin:10px;
-    font-weight: bold;
-    font-size:15px;
-    background-color: #c2ccd4;
-    border-radius: 10px;
-  }
-  #register-button:hover,.button:hover {
-    background-color: #bb9517;
-    cursor: pointer;
-  }
-  #register-button:hover {
-    width: 12rem;
-    height: 4rem;
-  }
-
-  .button,
-  #file-form-submit-button {
-    padding:10px;
-    margin:5px;
-    background-color: #c2ccd4;
-    border-radius: 10px;
-    font-size: 15px;
-  }
-
-  .input,#file-input {
-    padding: 10px;
-    margin: 20px 5px;
-    border-style:solid;
-    border-color:#0A0A0A;
-    border-radius: 10px;
-    font-size: 15px;
-  }
-  #todo-input{
-    width: 25%;
-  }
-  legend {
-    padding:10px;
-    margin-bottom:10px;
-    font-weight: bold;
-    background-color: #c2ccd4;
-    color: #0A0A0A;
-  }
-  #todo-fieldset {
-    display: flex;
-    flex-direction: column;
-    width:25%;
-
-  }
-  #todo-form {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #div-work,
-  #div-life,
-  #div-sport,
-  #div-education {
-    display:flex;
-    margin-bottom:4px;
-  }
-  ul {
-    text-decoration: none;
-    width: 100%;
-    margin:20px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-li {
-  padding:5px;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: 'Roboto', sans-serif;
+  color: #fffde7;
+}
+body {
+  background-color: #252524;
+}
+.main-header {
+  background-color: #202020;
+  border-bottom: 2px solid #bb9517;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-header h1 {
+  margin-left: 20px;
+  font-size: 30px;
+}
+.main-nav {
+  margin-right: 20px;
+}
+a:link,
+a:visited {
+  color: #fffde7;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 18px;
+}
+.main-nav a:hover {
+  background-color: #bb9517;
+  border-radius: 10%;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.content {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+fieldset {
+  border: none;
 }
 
+h2,
+label {
+  padding: 10px;
+  font-size: 25px;
+}
+p {
+  padding-bottom: 4px;
+  font-size: 18px;
+}
+
+#register-button {
+  width: 10rem;
+  height: 3rem;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #c2ccd4;
+  border-radius: 10px;
+}
+#register-button:hover,
+.button:hover {
+  background-color: #bb9517;
+  cursor: pointer;
+}
+#register-button:hover {
+  width: 12rem;
+  height: 4rem;
+}
+
+.button,
+#file-form-submit-button {
+  padding: 10px;
+  margin: 5px;
+  background-color: #c2ccd4;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.input,
+#file-input {
+  padding: 10px;
+  margin: 20px 5px;
+  border-style: solid;
+  border-color: #0a0a0a;
+  border-radius: 10px;
+  font-size: 15px;
+}
+#todo-input {
+  width: 25%;
+}
+legend {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  background-color: #c2ccd4;
+  color: #0a0a0a;
+}
+#todo-fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+#todo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#div-work,
+#div-life,
+#div-sport,
+#div-education {
+  display: flex;
+  margin-bottom: 4px;
+}
+ul {
+  text-decoration: none;
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+li {
+  padding: 5px;
+}
