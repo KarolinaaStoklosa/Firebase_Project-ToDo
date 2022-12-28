@@ -1,0 +1,21 @@
+{
+  "name": "project1-firebase",
+  "version": "1.0.0",
+  "description": "Simple todo app built with Firebase and vanill JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todoapp",
+    "firebae",
+    "vanilla",
+    "js",
+    "js"
+  ],
+  "author": "Karolina Stokłosa",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^9.10.0"
+  }
+}
